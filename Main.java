@@ -24,7 +24,7 @@ class Student {
 
 public class Main{
 
-    private void delName(String name,LinkedList<Student> studel){
+    private void delName(String name,LinkedList<Student> studel){  //Is this any bugs?
         for (Student students:studel
              ) {
             if(name.equals(students.reName())){
@@ -60,7 +60,7 @@ public class Main{
         stu.add(new Student("zx",60));
         System.out.println("LinkedList的元素个数："+stu.size()+"\n");
 
-        delName("zx",stu);
+        delName("zx",stu);  //I don't know why can't delete it.
         System.out.println(stu);
         System.out.println();
 
